@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="spiderwebdevtask2hacker.css">
+</head>
+<body>
+    <h1>TEST YOUR PANDEMIC KNOWLEDGE</h1>
+    <div id = "fronthing">
+<form id="myform" action="mcq2.html">
+    ENTER YOUR NAME: <input type = "text" name = "fname" value = "Unknown">
+</form><br><br>
+PRESS START BUTTON TO BEGIN THE QUIZ<br><br>
+<button id="quizstart">START</button>
+    </div>
+    <div id="actualques">
+        <p class="clock"></p>
+    <button id="0" class="common button1" onclick= sidebar(this)>QUESTION1</button>
+    <button id="1" class="common" onclick= sidebar(this)>QUESTION2</button>
+    <button id="2" class="common" onclick= sidebar(this)>QUESTION3</button>
+    <button id="3" class="common" onclick= sidebar(this)>QUESTION4</button>
+    <button id="4" class="common" onclick= sidebar(this)>QUESTION5</button>
+    <button id="5" class="common" onclick= sidebar(this)>QUESTION6</button>
+    <button id="6" class="common" onclick= sidebar(this)>QUESTION7</button>
+    <button id="7" class="common" onclick= sidebar(this)>QUESTION8</button>
+    <button id="8" class="common" onclick= sidebar(this)>QUESTION9</button>
+    <button id="9" class="common" onclick= sidebar(this)>QUESTION10</button>
+    <div  id=quiz>
+        <p id = "question"></p>
+        <div id="options">
+            <button id="newe1"></button><br><br>
+        <button id="newe2"></button><br><br>
+        <button id="newe3"></button><br><br>
+        <button id="newe4"></button><br><br></div>
+       <footer>
+    <button id = "change1">PREVIOUS</button>
+    <button id = "change">NEXT</button>
+    <button id="change" onclick="submit()">SUBMIT</button>
+    </footer>
+    </div></div>
+    <div id="resultdisplay">
+<h2 id="playername" ></h2>        
+<p id="answeredques" ></p>
+<p id="wrongques" ></p>
+<p id="finalscore" ></p>
+<h3>HIGHSCORE</h3>
+<p id="highscore"><pre>NAME       SCORE         DATE & TIME</pre></p><p id="information" ></p>
+
+    </div>
+<script src="spiderwebdevtask2hacker.js"></script>    
+</body>
+
+</html>        

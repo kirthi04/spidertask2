@@ -1,0 +1,143 @@
+#newe4, #newe1, #newe2, #newe3{
+    width: 300px;
+    height: 50px;
+    background-color: white; 
+      color: black; 
+      border: 2px solid #239aaa;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+        #quiz{
+            border: 3px solid black;
+            border-radius: 10px;
+            padding-left: 40px;
+            margin-left: 500px;
+            height: 400px;
+            margin-top: -400px;
+           background-color: white;
+           width: 450px;
+           font-size: 17px;
+        }
+        #trial1{
+             margin-top: 60px;
+        }
+        .common{
+            display: block;
+            margin-left: 395px;
+            height: 30px;
+            border-radius: 10px;
+            width: 100px;
+            height: 40px;
+            background-color: white; 
+      color: black; 
+      border: 2px solid #239aaa;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+        .button1{
+            margin-top: 60px;
+        }
+        #actualques{
+            display: none;
+            
+        }
+        h1{
+     color:cornflowerblue;
+      animation-name: fronthead;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      text-align: center;
+    }
+    @keyframes fronthead {
+      0% {color: black;}
+      50% {color: white;}
+      100% {color: red;}
+    }
+    body{
+        background-image: url(corona.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    #fronthing{
+        background-color: white;
+        width: 500px;
+        height: 340px;
+        margin-left: 500px;
+        margin-top: 140px;
+        padding: 20px;
+        font-size: 30px;
+        border-radius: 10px;
+        border-style: groove;
+        text-shadow: 2px 2px 5px red;
+    }
+    #quizstart {
+      background-color: white; 
+      color: black; 
+      border: 2px solid #bb1c1c;
+      width: 100px;
+      height: 50px;
+      border-radius: 12px;
+      margin-left: 170px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      animation-name: frontheadn;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+    #quizstart:hover {
+      background-color: #bb1c1c;
+      color: white;
+    }
+    @keyframes frontheadn {
+      0% {transform: rotatey(0deg);;}
+      50% {transform: rotatey(180deg);}
+      100% {transform: rotatey(360deg);}
+    }
+    #change1{
+    margin-left: 10px;
+    background-color: white; 
+      color: black; 
+      border: 2px solid #239aaa;
+      width: 100px;
+      height: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    #change:hover , #change1:hover ,  #newe1:hover, #newe2:hover, #newe3:hover, #newe4:hover, .common:hover{
+        background-color: #239aaa
+    }
+    #change{
+        margin-left: 50px;
+        background-color: white; 
+      color: black; 
+      border: 2px solid #239aaa;
+      width: 100px;
+      height: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    .clock{
+        font-size: 20px;
+      font-style: oblique;
+      text-shadow: 2px 2px 3px #f8f6f6; 
+      color: rgb(231, 218, 31);
+    }
+    #resultdisplay{
+        display: none;
+        background-color: white;
+        width: 715px;
+        height: 550px;
+        margin-left: 400px;
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 30px;
+        border-radius: 10px;
+        border: 4px groove black;
+        text-shadow: 2px 2px 5px rgb(60, 189, 194);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        background-color: rgb(240, 233, 140);
+        overflow: hidden;
+    }
+    #playername,h3{
+        text-shadow: 2px 2px 5px rgb(216, 89, 174);
+        text-align: center;
+    }
