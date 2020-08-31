@@ -1,0 +1,76 @@
+#newe4, #newe1, #newe2, #newe3{
+    width: 400px;
+    height: 60px;
+    height: 50px;
+    background-color: white; 
+      color: black; 
+      border: 2px solid #239aaa;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+        #quiz{
+        border: 3px solid black;
+            border-radius: 10px;
+            padding-left: 40px;
+            margin-left: 450px;
+            height: 400px;
+            margin-top: 100px;
+           background-color: white;
+           width: 550px;
+           font-size: 17px;
+        }
+        #change1{
+    margin-left: 10px;
+    background-color: white; 
+      color: black; 
+      border: 2px solid #239aaa;
+      width: 100px;
+      height: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    #change:hover , #change1:hover ,  #newe1:hover, #newe2:hover, #newe3:hover, #newe4:hover, .common:hover{
+        background-color: #239aaa
+    }
+    #change{
+        margin-left: 50px;
+        background-color: white; 
+      color: black; 
+      border: 2px solid #239aaa;
+      width: 100px;
+      height: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }  
+    #resultdisplay{
+        display: none;
+        background-color: white;
+        width: 700px;
+        height: 220px;
+        margin-left: 400px;
+        margin-top: 150px;
+        padding: 10px;
+        font-size: 30px;
+        border-radius: 10px;
+        border: 4px groove black;
+        text-shadow: 2px 2px 5px rgb(60, 189, 194);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        background-color: rgb(240, 233, 140);
+    }
+    h1{
+     color:cornflowerblue;
+      animation-name: fronthead;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      text-align: center;
+    }
+    @keyframes fronthead {
+      0% {color: black;}
+      50% {color: white;}
+      100% {color: rgb(201, 199, 94);}
+    }
+    body{
+        background-image: url('corona3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
